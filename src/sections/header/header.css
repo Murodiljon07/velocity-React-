@@ -1,0 +1,117 @@
+.header {
+  min-height: 100vh;
+  margin-bottom: 77px;
+}
+
+.logo {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 25px;
+  line-height: 25px;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+.nav {
+  background-color: var(--background-color-alt);
+  padding: 20px 0;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-link {
+  color: var(--text-color);
+  font-family: Open Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0%;
+}
+
+.nav-link:hover {
+  color: var(--primary-color);
+}
+
+.nav-link:active {
+  color: var(--primary-color-dark);
+}
+
+/* hero */
+.hero {
+  background-image: url(../../../public/pictures/hero-img.png);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 106px;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero-title {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 59px;
+  line-height: 60px;
+  letter-spacing: 4px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--background-color);
+}
+
+.hero-btns {
+  display: flex;
+  gap: 20px;
+}
+
+.sign-up-btn {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--background-color);
+  background-color: var(--primary-color);
+  padding: 12px 30px;
+  border-radius: 4px;
+}
+
+.sign-up-btn:hover {
+  background-color: var(--primary-color-dark);
+}
+
+.learn-more {
+  font-family: Open Sans;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 21px;
+  letter-spacing: 2px;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--background-color);
+  padding: 12px 30px;
+  border-radius: 4px;
+  border: 2px solid var(--background-color);
+}
+
+.learn-more:hover {
+  background-color: var(--background-color);
+  color: var(--primary-color);
+}
