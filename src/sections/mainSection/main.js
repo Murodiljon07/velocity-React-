@@ -15,7 +15,11 @@ function Main() {
 
         <div className="boxes-container">
           <div className="design-box box">
-            <img src="/pictures/design-box-img.png" className="box-img"></img>
+            <img
+              src="/pictures/design-box-img.png"
+              className="box-img"
+              alt="design"
+            ></img>
             <div className="box-desc">
               <h3 className="box-title">Graphic Design</h3>
               <p className="box-paragraph">
@@ -25,7 +29,11 @@ function Main() {
             </div>
           </div>
           <div className="development-box box">
-            <img src="/pictures/code-box-img.png" className="box-img"></img>
+            <img
+              src="/pictures/code-box-img.png"
+              className="box-img"
+              alt="code"
+            ></img>
             <div className="box-desc">
               <h3 className="box-title">Awesome code</h3>
               <p className="box-paragraph">
@@ -35,7 +43,11 @@ function Main() {
             </div>
           </div>
           <div className="marketing-box box">
-            <img src="/pictures/design-box-img.png" className="box-img"></img>
+            <img
+              src="/pictures/design-box-img.png"
+              className="box-img"
+              alt=""
+            ></img>
             <div className="box-desc">
               <h3 className="box-title">free template</h3>
               <p className="box-paragraph">
@@ -105,7 +117,11 @@ function Main() {
           <button className="btn tab-btn">Tab 3</button>
         </div>
         <div className="tab-section-desc container">
-          <img src="/pictures/tab-img.png" className="tab-section-img"></img>
+          <img
+            src="/pictures/tab-img.png"
+            className="tab-section-img"
+            alt="tab section"
+          ></img>
           <div className="tab-title-block">
             <h2 className="section-title">Some Title Here</h2>
             <span className="tab-paragraph">

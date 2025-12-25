@@ -18,19 +18,19 @@ function Footer() {
           </div>
           <div className="footer-box">
             <h3 className="footer-box-title">useful links</h3>
-            <a href="#" className="footer-box-links">
+            <a href="#hero" className="footer-box-links">
               {" "}
               Phasellus gravida semper nisi
             </a>
-            <a href="#" className="footer-box-links">
+            <a href="#hero" className="footer-box-links">
               {" "}
               Suspendisse nisl elit
             </a>
-            <a href="#" className="footer-box-links">
+            <a href="#hero" className="footer-box-links">
               {" "}
               Dellentesque habitant morbi
             </a>
-            <a href="#" className="footer-box-links">
+            <a href="#hero" className="footer-box-links">
               {" "}
               Etiam sollicitudin ipsum
             </a>
@@ -39,35 +39,35 @@ function Footer() {
             <h3 className="footer-box-title">social</h3>
             <div className="footer-link-box">
               <i class="bx bxl-twitter"></i>
-              <a href="#" className="footer-box-links">
+              <a href="#hero" className="footer-box-links">
                 {" "}
                 Twitter{" "}
               </a>
             </div>
             <div className="footer-link-box">
               <i class="bx bxl-facebook-square"></i>
-              <a href="#" className="footer-box-links">
+              <a href="#hero" className="footer-box-links">
                 {" "}
                 Facebook{" "}
               </a>
             </div>
             <div className="footer-link-box">
               <i class="bx bxl-pinterest-alt"></i>
-              <a href="#" className="footer-box-links">
+              <a href="#hero" className="footer-box-links">
                 {" "}
                 Pinterest{" "}
               </a>
             </div>
             <div className="footer-link-box">
               <i class="bx bxl-google"></i>
-              <a href="#" className="footer-box-links">
+              <a href="#hero" className="footer-box-links">
                 {" "}
                 Google{" "}
               </a>
             </div>
             <div className="footer-link-box">
               <i class="bx bxl-wordpress"></i>
-              <a href="#" className="footer-box-links">
+              <a href="#hero" className="footer-box-links">
                 {" "}
                 Webflow{" "}
               </a>
